@@ -1,0 +1,108 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+<title> login</title>
+<meta charset="utf-8"/>
+<meta name="author" name="company name"/>
+</head>
+<body>
+<form name="login" action="" method="POST" enctype="multipart/formdata">
+<fieldset>
+<legend>user login</legend>
+<label> username</label>
+<input type="text" name="name" required="required" placeholder="username" size=20/>
+<br/>
+<label> password </label>
+<input type="password" name="password" required placeholder="password"/>
+<br/>
+<input type="submit" name="submit" value="login"/>
+</fieldset>
+</form>
+<form>
+<fieldset>
+<legend> register</legend>
+<table border=0 cellpadding="5" cellspacing=5>
+<tr>
+<td>user</td>
+<td> <input type="text" name="username" placeholder="username" required/>
+</td>
+</tr>
+<tr>
+<td> password</td>
+<td> <input type="text" name="password" placeholder="password" required/>
+</tr>
+<tr>
+<td>gender</td>
+<td><input type="radio" name="gender" value="M" checked/> Male
+<input type="radio" name="gender" value="F" /> female
+</tr>
+<tr>
+<td>email</td>
+<td><input type="email" name="email" placeholder="yourname@domain.com" required/>
+</tr>
+<tr>
+<td>DOB</td>
+<td>
+<select name="day" size=1>
+<option value=1>01</option >
+<option value=2>02</option >	
+<option value=3>03</option >
+<option value=4>04</option >
+<option value=5>05</option >
+<option value=6>06</option >
+<option value=7>07</option >
+<option value=8>08</option >
+<option value=9>09</option >
+<option value=10>10</option >
+<option value=11>11</option >
+<option value=12>12</option >
+<option value=13>13</option >
+<option value=14>14</option >
+<option value=15>15</option >
+<option value=16>16</option >
+<option value=17>17</option >	
+</select>
+
+<select name="month" size=1>
+<option value="jan">jan</option>
+<option value="feb">feb</option>
+<option value="mar">mar</option>
+<option value="april">april</option>
+<option value="may">may</option>
+<option value="june">june</option>
+</td>
+</tr>
+<tr>
+<td>courses </td>
+<td>
+<input type="checkbox" name="php" value="php" checked/> php
+<input type="checkbox" name="asp" value="asp"/> asp
+</td>
+</tr>
+<tr>
+<td>photo</td>
+<td>
+<input type="file" name="upload"/>
+</td>
+</tr>
+<tr>
+<td>message</td>
+<td>
+<textarea rows="S" cols="30" name="message">
+</textarea>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>
+<input type="submit" name="register" value="register"/>
+<input type="reset" name="cancel" value="cancel"/>
+</td>
+</tr>
+
+
+
+
+
+</body>
+</html>
