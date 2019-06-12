@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<form>
+<table border=0 cellpadding="5" cellspacing=5>
+<tr>
+<td> name</td>
+<td> <input type="text" name="name" required="required" placeholder="" size="20"/> </td>
+</tr>
+<tr>
+<td> phone</td>
+<td><input type="text" name="phone" required="required" /></td>
+<tr/>
+<tr>
+<td> email</td>
+<td><input type="text" name="email" requred="required"/></td>
+</tr>
+</table>
+<fieldset>
+<legend>Which taxi do you require?</legend>
+<table border=0 cellpadding="5" cellspacing="5">
+<tr>
+<td><input type="radio" name="tchoice" value="car" checked/> car</td>
+</tr>
+</br>
+<tr>
+<td><input type="radio" name="tchoice" value="van" checked/> van</td>
+</tr>
+<tr>
+<td><input type="radio" name="tchoice" checked/>tuktuk</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend>Extras</legend>
+<table border=0 cellpadding="5" cellspacing="5">
+<tr>
+<td><input type="checkbox" name="babyseat" checked/>babyseat</td>
+</tr>
+</br>
+<tr>
+<td><input type="checkbox" name="wheelchair" checked/>wheelchair</td>
+</tr>
+</br>
+<tr>
+<td><input type="checkbox" name="stock tip" checked/>stock tip</td>
+</tr>
+</table>
+</fieldset>
+<table border=0 cellpadding="5" cellspacing="5">
+<tr>
+<td> pickup date/time</td>
+<td><input type="datetime-local">
+</td>
+</tr>
+<tr>
+<td>pickup place</td>
+<td><select name="place" size=1>
+<option value="">select one</option>
+<option value="shinjuku">shinjuku</option>
+<option value="tokyo">tokyo</option>
+<option value="akihabara">akihabara</option>
+<option value="mejidori">mejidori</option>
+</select>
+<tr>
+<td>dropoff</td>
+<td><input type="name" name="place" required/>
+</td>
+</tr>
+<tr>
+<td>special instructions</td>
+<td><input type="text" name="message" required/>
+</td>
+</tr>
+</br>
+<tr>
+<td><input type="submit" name="submit" value="submit booking"/>
+</td>
+</tr>
+</table>
+
+
+</head>
+</html>
